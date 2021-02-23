@@ -151,11 +151,13 @@ final class NativeMapView implements NativeMap {
     height = (int) Math.ceil(height / pixelRatio);
 
     if (width < 0) {
-      throw new IllegalArgumentException("width cannot be negative.");
+      width = 100;
+      //throw new IllegalArgumentException("width cannot be negative.");
     }
 
     if (height < 0) {
-      throw new IllegalArgumentException("height cannot be negative.");
+      height = 100;
+      //throw new IllegalArgumentException("height cannot be negative.");
     }
 
     if (width > 65535) {
