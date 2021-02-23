@@ -45,12 +45,12 @@ ext {
     ]
 
     dependenciesList = [
-            mapboxSdkCore          : "com.github.zainriaz:mapbox-android-sdk-gl-core:${versions.mapboxSdkCore}",
-            mapboxJavaGeoJSON      : "com.github.zainriaz:mapbox-sdk-geojson:${versions.mapboxServices}",
+            mapboxSdkCore          : "com.mapbox.mapboxsdk:mapbox-android-sdk-gl-core:${versions.mapboxSdkCore}",
+            mapboxJavaGeoJSON      : "com.mapbox.mapboxsdk:mapbox-sdk-geojson:${versions.mapboxServices}",
             mapboxAndroidTelemetry : "com.mapbox.mapboxsdk:mapbox-android-telemetry:${versions.mapboxTelemetry}",
-            mapboxAndroidGestures  : "com.github.zainriaz:mapbox-android-gestures:${versions.mapboxGestures}",
-            mapboxAndroidAccounts  : "com.github.zainriaz:mapbox-android-accounts:${versions.mapboxAccounts}",
-            mapboxJavaTurf         : "com.github.zainriaz:mapbox-sdk-turf:${versions.mapboxServices}",
+            mapboxAndroidGestures  : "com.mapbox.mapboxsdk:mapbox-android-gestures:${versions.mapboxGestures}",
+            mapboxAndroidAccounts  : "com.mapbox.mapboxsdk:mapbox-android-accounts:${versions.mapboxAccounts}",
+            mapboxJavaTurf         : "com.mapbox.mapboxsdk:mapbox-sdk-turf:${versions.mapboxServices}",
             mapboxSdkVersions      : "com.mapbox.mapboxsdk:mapbox-android-sdk-versions:${versions.mapboxSdkVersions}",
             mapboxSdkRegistryPlugin: "com.mapbox.gradle.plugins:sdk-registry:${versions.mapboxSdkRegistryPlugin}",
 
