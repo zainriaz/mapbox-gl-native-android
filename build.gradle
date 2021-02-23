@@ -11,7 +11,7 @@ buildscript {
             }
             credentials {
                 username "mapbox"
-                password = "pk.eyJ1IjoiYWxpLXNoYWhpZCIsImEiOiJjazgwM3g3a2EwYzd3M21tdTAxd210NTR0In0.feREay0V9qbcx3umDmeNNg"
+                password = "sk.eyJ1IjoibWQtcmlheiIsImEiOiJja2xodDZtd3YwOWlqMnBxaXJmcjk1MjhrIn0.tlcaZcg1lZPKfEkemHo0pw"
             }
         }
     }
@@ -38,7 +38,7 @@ allprojects {
             }
             credentials {
                 username "mapbox"
-                password = "pk.eyJ1IjoiYWxpLXNoYWhpZCIsImEiOiJjazgwM3g3a2EwYzd3M21tdTAxd210NTR0In0.feREay0V9qbcx3umDmeNNg"
+                password = "sk.eyJ1IjoibWQtcmlheiIsImEiOiJja2xodDZtd3YwOWlqMnBxaXJmcjk1MjhrIn0.tlcaZcg1lZPKfEkemHo0pw"
             }
         }
     }
