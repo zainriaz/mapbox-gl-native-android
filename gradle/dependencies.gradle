@@ -51,7 +51,7 @@ ext {
             mapboxAndroidGestures  : "com.github.zainriaz:mapbox-android-gestures:${versions.mapboxGestures}",
             mapboxAndroidAccounts  : "com.github.zainriaz:mapbox-android-accounts:${versions.mapboxAccounts}",
             mapboxJavaTurf         : "com.github.zainriaz:mapbox-sdk-turf:${versions.mapboxServices}",
-            mapboxSdkVersions      : "com.github.zainriaz:mapbox-android-sdk-versions:${versions.mapboxSdkVersions}",
+            mapboxSdkVersions      : "com.mapbox.mapboxsdk:mapbox-android-sdk-versions:${versions.mapboxSdkVersions}",
             mapboxSdkRegistryPlugin: "com.mapbox.gradle.plugins:sdk-registry:${versions.mapboxSdkRegistryPlugin}",
 
             junit                  : "junit:junit:${versions.junit}",
