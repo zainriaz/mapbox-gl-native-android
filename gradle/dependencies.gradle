@@ -47,7 +47,7 @@ ext {
     dependenciesList = [
             mapboxSdkCore          : "com.github.zainriaz:mapbox-android-sdk-gl-core:${versions.mapboxSdkCore}",
             mapboxJavaGeoJSON      : "com.github.zainriaz:mapbox-sdk-geojson:${versions.mapboxServices}",
-            mapboxAndroidTelemetry : "com.github.zainriaz:mapbox-android-telemetry:${versions.mapboxTelemetry}",
+            mapboxAndroidTelemetry : "com.mapbox.mapboxsdk:mapbox-android-telemetry:${versions.mapboxTelemetry}",
             mapboxAndroidGestures  : "com.github.zainriaz:mapbox-android-gestures:${versions.mapboxGestures}",
             mapboxAndroidAccounts  : "com.github.zainriaz:mapbox-android-accounts:${versions.mapboxAccounts}",
             mapboxJavaTurf         : "com.github.zainriaz:mapbox-sdk-turf:${versions.mapboxServices}",
